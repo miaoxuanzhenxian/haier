@@ -48,6 +48,13 @@
       "unicode_decimal": 58880
     },
     {
+      "icon_id": "2042454",
+      "name": "视频",
+      "font_class": "shipinICON",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
       "icon_id": "2338274",
       "name": "置顶",
       "font_class": "zhiding2",
@@ -102,6 +109,13 @@
       "font_class": "shezhi",
       "unicode": "e61e",
       "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3905345",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e645",
+      "unicode_decimal": 58949
     },
     {
       "icon_id": "3926929",
