@@ -1,0 +1,36 @@
+{   
+    "data":{
+        "posttime":[
+            {
+                "text":"Haier/海尔 冷柜 BD-148DL 148升 分区大抽屉 家用立式冷冻柜",
+                "price":"￥1599.00",
+                "newprice":"￥1499.00",
+                "imgUrl":"//cdn22.ehaier.com/file/5a5484890b047c81ea4c6578.png"
+            },
+            {
+                "text":"Haier/海尔 波轮洗衣机 EB60M19 6公斤 波轮洗衣机",
+                "price":"￥799.00",
+                "newprice":"￥1699.00",
+                "imgUrl":"//cdn22.ehaier.com/file/5a5484e169258e2983217d46.png"
+            },
+            {
+                "text":"Haier/Haier/海尔 波轮洗衣机 XPB70-1186BS",
+                "price":"￥499.00",
+                "newprice":"￥1499.00",
+                "imgUrl":"//cdn50.ehaier.com/mobilemall-admin-web/picmanagecontroller/image/2019/03/b557930b8dd94eceab4b9896e4180965.jpg"
+            },
+            {
+                "text":"Haier/海尔 电热水器 EC8002-ME3(U1)",
+                "price":"￥499.00",
+                "newprice":"￥1499.00",
+                "imgUrl":"//cdn50.ehaier.com/mobilemall-admin-web/picmanagecontroller/image/2018/11/f1506772366e453aa7510e9a694cae03.jpg"
+            },
+            {
+                "text":"Haier/海尔 空调 KFR-50LW/09CAA21AU1套机",
+                "price":"￥499.00",
+                "newprice":"￥1499.00",
+                "imgUrl":"//cdn50.ehaier.com/mobilemall-admin-web/picmanagecontroller/image/2018/11/f1506772366e453aa7510e9a694cae03.jpg"
+            }
+        ]
+    }
+}

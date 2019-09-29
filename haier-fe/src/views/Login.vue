@@ -1,5 +1,6 @@
 <template>
     <div>
+        <router-link :to="{name:'personalCenter'}" tag="a" />/>>
         登录login
     </div>
 </template>

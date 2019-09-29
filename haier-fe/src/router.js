@@ -29,6 +29,14 @@ export default new Router({
       path: '/branchTypeDetail/:url',
       name: 'branchTypeDetail',
       component: () => import( './views/BranchTypeDetail.vue')
+    }, {
+      path: '/home/detailslistcart',
+      name: 'detailslistcart',
+      component: () => import( './components/DetailsListCart.vue')
+    }, {
+      path: '/personalCenter',
+      name: 'personalCenter',
+      component: () => import( './components/PersonalCenter.vue')
     }
   ]
 })

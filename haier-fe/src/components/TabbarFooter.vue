@@ -1,8 +1,18 @@
 <template>
+<!-- 底部分页导航 -->
 	<nav>
-	
 		<ul>
-            <router-link :to="{name:'home'}" tag="li" active-class="active" exact>
+			<!-- <router-link :to="{name:'home'}" tag="li" 
+			v-for="(tahomepg,index) of tahomepages" :key="index"
+			
+			:class="{active:isactive}" @click="isactive"
+			>
+			<i class="iconfont ">{{tahomepg.iconfontCum}}</i>
+			<br>
+			<span>{{tahomepg.text}}</span>
+			
+			</router-link> -->
+      <router-link :to="{name:'home'}" tag="li" active-class="active" exact>
 			<i class="iconfont ">&#xe611;</i>
 			<br>
 			<span>首页</span>
@@ -25,7 +35,7 @@
 				<br>
 				<span>我的</span>
 		
-				</router-link>
+				</router-link>  
 			
 		</ul>
 	</nav>
@@ -33,22 +43,34 @@
 <script>
 export default {
 	name:"TabbarFooter" ,
+	data(){
+		return{
+			
+			// tahomepages:[
+			// 	{id:"home",name:"home", iconfontCum:"\ue611" ,text:"首页"},
+			// 	{id:"branchType",name:"branchType", iconfontCum:"\ue62c" ,text:"分类"},
+			// 	{id:"cart",name:"cart", iconfontCum:"\ue650" ,text:"购物车"},
+			// 	{id:"login",name:"login", iconfontCum:"\ue61b" ,text:"我的"},
+			// ]
+			
+		}
+	},
+	
 	
 }
 </script>
 
 <style scoped>
-
-
 	nav{
+		background: #fff;
 	  position: fixed;
-     bottom: 0px;
-     width: 100%;
-	 height: 1.226667rem;
-	 display: flex;
-	 z-index:10;
-	 color: #808080;
-	 box-shadow: 0 0 .053333rem #ccc;
+       bottom: 0px;
+       width: 100%;
+	   height: 1.226667rem;
+	   display: flex;
+	   z-index:6960;
+	   color: #808080;
+	   box-shadow: 0 0 .053333rem #ccc;
 	
 	
 	}	
