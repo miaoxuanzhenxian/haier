@@ -32,7 +32,7 @@
 </template>
 <script>
 	import Swiper from 'swiper' //swiper .js
-    import 'swiper/css/swiper.css'// swiper.cssnpm 
+    import 'swiper/css/swiper.css'// swiper.cssnpm
 export default {
     name:"HomeBannerSlider",
     mounted(){
