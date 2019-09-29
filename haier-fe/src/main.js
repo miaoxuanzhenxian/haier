@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import store from './store/store'
+import './assets/css/layout.css'
+import './assets/css/font/iconfont.css'
 
 Vue.config.productionTip = false
 
