@@ -20,16 +20,10 @@ export default new Router({
     },  {
       path: '/cart',
       name: 'cart',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import( './views/Cart.vue')
     },  {
       path: '/login',
       name: 'login',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import( './views/Login.vue')
     },
     {
@@ -44,7 +38,18 @@ export default new Router({
       path: '/register',
       name: 'register',
       component: () => import( './views/Register.vue')
+    }, {
+      path: '/branchTypeDetail/:url',
+      name: 'branchTypeDetail',
+      component: () => import( './views/BranchTypeDetail.vue')
+    }, {
+      path: '/home/detailslistcart',
+      name: 'detailslistcart',
+      component: () => import( './components/DetailsListCart.vue')
+    }, {
+      path: '/personalCenter',
+      name: 'personalCenter',
+      component: () => import( './components/PersonalCenter.vue')
     }
-    
   ]
 })

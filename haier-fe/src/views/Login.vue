@@ -1,9 +1,14 @@
 <template>
+
   <div>
     <div v-if="isLogin">
-      <div class="personal">
+      <div>
+        <router-link :to="{name:'personalCenter'}" tag="a" />
+        登录login
+        <div class="personal">
         <img @click="prev" src="../assets/image/ic_back_white.png" />
-      </div>欢迎 ...
+        </div>欢迎 ...
+      </div>
     </div>
     <div v-else>
       <div class="header">

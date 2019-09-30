@@ -1,8 +1,19 @@
 <template>
 	<nav ref='ft'>
-	
+<!-- 底部分页导航 -->
+
 		<ul>
-            <router-link :to="{name:'home'}" tag="li" active-class="active" exact>
+			<!-- <router-link :to="{name:'home'}" tag="li" 
+			v-for="(tahomepg,index) of tahomepages" :key="index"
+			
+			:class="{active:isactive}" @click="isactive"
+			>
+			<i class="iconfont ">{{tahomepg.iconfontCum}}</i>
+			<br>
+			<span>{{tahomepg.text}}</span>
+			
+			</router-link> -->
+      <router-link :to="{name:'home'}" tag="li" active-class="active" exact>
 			<i class="iconfont ">&#xe611;</i>
 			<br>
 			<span>首页</span>
@@ -26,6 +37,10 @@
 				<span>我的</span>
 		
 				</router-link>
+
+	 
+			
+
 		</ul>
 	</nav>
 </template>
@@ -40,11 +55,10 @@ export default {
         this.$refs.ft.style.bottom = '-1.226667rem';
       }
     })
-  },	
+  },		
+
 }
 </script>
-
-<style src="../assets/font/iconfont.css"></style>
 
 <style scoped>
 	nav{
@@ -57,6 +71,7 @@ export default {
 	 z-index:10;
 	 color: #808080;
 	 box-shadow: 0 0 .053333rem #ccc;
+	 background: #fff;
 	 cursor: pointer;
 	
 	}	

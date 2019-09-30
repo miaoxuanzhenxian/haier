@@ -6,11 +6,32 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "166176",
+      "name": "小三角down",
+      "font_class": "xiaosanjiaodown",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "166177",
+      "name": "小三角up",
+      "font_class": "xiaosanjiaoup",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
       "icon_id": "692257",
       "name": "置顶",
       "font_class": "zhiding",
       "unicode": "e61f",
       "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "959127",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
     },
     {
       "icon_id": "1071036",
@@ -46,6 +67,20 @@
       "font_class": "youxi",
       "unicode": "e600",
       "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1703542",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "2042454",
+      "name": "视频",
+      "font_class": "shipinICON",
+      "unicode": "e628",
+      "unicode_decimal": 58920
     },
     {
       "icon_id": "2338274",
@@ -102,6 +137,13 @@
       "font_class": "shezhi",
       "unicode": "e61e",
       "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3905345",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e645",
+      "unicode_decimal": 58949
     },
     {
       "icon_id": "3926929",

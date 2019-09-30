@@ -18,12 +18,17 @@ module.exports = {
                 ws: true,
                 changeOrigin: true
             },
+            '/navigation': {
+                target: 'http://localhost:3000',
+                ws: true,
+                changeOrigin: true
+            },
             '/order': {
                 target: 'http://localhost:5000',
                 ws: true,
                 changeOrigin: true
-            }
         }
     },
     lintOnSave: false // 关闭 eslint 检查
-};
+}
+}
