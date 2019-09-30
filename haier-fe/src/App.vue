@@ -13,6 +13,10 @@ export default {
     
     }
   },
+  mounted() {
+    this.$eventBus.$emit('showHideNav',true);
+
+  },
   components:{
    TabbarFooter
   }

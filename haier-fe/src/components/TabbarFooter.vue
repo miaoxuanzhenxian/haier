@@ -1,5 +1,5 @@
 <template>
-	<nav>
+	<nav ref='ft'>
 	
 		<ul>
             <router-link :to="{name:'home'}" tag="li" active-class="active" exact>
@@ -26,24 +26,30 @@
 				<span>我的</span>
 		
 				</router-link>
-			
 		</ul>
 	</nav>
 </template>
 <script>
 export default {
-	name:"TabbarFooter" ,
-	
+	name:"TabbarFooter",
+	mounted() {
+    this.$eventBus.$on('showHideNav', (flag) => {
+      if (flag) {
+        this.$refs.ft.style.bottom = '0px';
+      } else {
+        this.$refs.ft.style.bottom = '-1.226667rem';
+      }
+    })
+  },	
 }
 </script>
 
 <style src="../assets/font/iconfont.css"></style>
 
 <style scoped>
-
-
 	nav{
-	  position: fixed;
+	 transition: bottom 1s;
+	 position: fixed;
      bottom: 0px;
      width: 100%;
 	 height: 1.226667rem;
@@ -51,7 +57,7 @@ export default {
 	 z-index:10;
 	 color: #808080;
 	 box-shadow: 0 0 .053333rem #ccc;
-	
+	 cursor: pointer;
 	
 	}	
 	ul{margin-top: .16rem;

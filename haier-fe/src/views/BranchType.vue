@@ -6,7 +6,11 @@
 
 <script>
     export default {
-        name: "BranchType"
+        name: "BranchType",
+        mounted() {
+            this.$eventBus.$emit('showHideNav',true);
+      
+        },
     }
 </script>
 

@@ -6,7 +6,11 @@
 
 <script>
     export default {
-        name: "Cart"
+        name: "Cart",
+        mounted() {
+            this.$eventBus.$emit('showHideNav',true);
+            
+        },
     }
 </script>
 

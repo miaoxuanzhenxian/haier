@@ -10,6 +10,10 @@
 
 export default {
   name: 'home',
+  mounted() {
+    this.$eventBus.$emit('showHideNav',true);
+    
+  },
   components: {
    
   }
